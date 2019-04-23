@@ -53,7 +53,7 @@ def read_obj_file(obj_file_path):
                 min_max_y_vertices = [float('+Infinity'), float('-Infinity')]
                 min_max_z_vertices = [float('+Infinity'), float('-Infinity')]
                 while obj_lines[i].startswith('v '):
-                    # while reading all vertices, find Axial Aligned bounding box for the object.
+                    # while reading all vertices, find Axis Aligned bounding box for the object.
                     v = obj_lines[i][2:].split()
                     x = float(v[0])
                     min_max_x_vertices[0] = min(min_max_x_vertices[0], x)

@@ -8,7 +8,7 @@ class Mesh:
         collision(bool): If the AABB has collision it is True.
         collided_objects(dict): Dict of all mesh names that the mesh collides
             with.
-        aabb(AABB): Axial Aligned Bounding Box for the mesh
+        aabb(AABB): Axis Aligned Bounding Box for the mesh
         color(list): A color of the mesh in RGB. Min value is 0.0 and max is 1.0.
             Default value is white that is [1.0, 1.0, 1.0].
     """
@@ -117,7 +117,7 @@ class Vertex:
 
 class AABB:
     """
-    AABB is a representation of a Axial Aligned Bounding Box in memory.
+    AABB is a representation of a Axis Aligned Bounding Box in memory.
 
     Attributes:
         pos(list): list of [x,y,z] coordinates

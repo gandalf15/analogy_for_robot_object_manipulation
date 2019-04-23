@@ -1,6 +1,6 @@
 # Analogy
 System for research of analogy in robot object manipulation.
-For simplification, it is using axial aligned bounding boxes.
+For simplification, it is using axis-aligned bounding boxes.
 
 - Design a scene in [Microsoft 3D builder](https://www.microsoft.com/en-gb/p/3d-builder/9wzdncrfj3t6?activetab=pivot:overviewtab)
 - Teach the system what are the ideal manipulation points and force vectors for specific tasks.
@@ -84,7 +84,7 @@ You should now see the suggested manipulation points and their force vectors for
 
 ![books-shelf scene](https://github.com/gandalf15/analogy/blob/master/images/books-shelf-3.png)
 
-White spheres are colliders for each axially aligned bounding box.
+White spheres are colliders for each axis-aligned bounding box.
 
 Cyan color = push \
 Purple color = pull \
