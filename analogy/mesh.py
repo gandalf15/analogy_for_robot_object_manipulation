@@ -124,9 +124,11 @@ class AABB:
         half_size(list): size of the AABB / 2 along x,y,z axis 
             [width/2, height/2, depth/2]
         manipulation_points(dict): Dict of all known manipulation points.
-        closest_surfaces(dict): Dict of all known manipulation vectors.
-        collided_sides(dict): Dict of 'side_name' and list of closest associated
+        manipulation_vectors(dict): Dict of all known manipulation vectors.
+        closest_surfaces(dict): Dict of 'side_name' and list of closest associated
             surfaces.
+        collided_sides(dict): Dict of 'side_name' and encoding of collision.
+            For eample, no collision = 0, partial collision = 1, full = 2.
         color(list): A color of the mesh in RGB. Min value is 0.0 and max is 1.0.
     """
 
