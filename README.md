@@ -8,6 +8,8 @@ For simplification, it is using axis-aligned bounding boxes.
 
 ## How to install
 
+Required OS is either Ubuntu 16.04 (or later) or Fedora 29 (or later). Tested on both.
+
 ```bash
 $ git clone git@github.com:gandalf15/analogy.git
 $ cd analogy
