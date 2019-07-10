@@ -112,3 +112,8 @@ Now you have to rotate the scene so you can select the target object (pizza box 
 
 After you confirm the selection in the terminal window you can see this suggested points and force vectors.
 ![pizza-freezer scene](https://github.com/gandalf15/analogy/blob/master/images/pizza-freezer-3.png)
+
+### More Info
+
+For more information please refer to `Analogy_user_manual.pdf` and `Analogy_maintenance_manual.pdf`.
+For a full dissertation please refer to `dissertation.pdf`
